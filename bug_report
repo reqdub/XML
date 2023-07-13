@@ -1,1 +1,15 @@
-
+<bugreport>
+	<id>1</id>
+	<severity>major</severity>
+	<priority>high</priority>
+	<title>An error message  and error icon appears when scanning a face with a weak mobile signal</title>
+	<enviroment>Android 13</enviroment>
+	<preconditions>
+    <1>Launch the App</1>
+		<2>Tap on Scan button</2>
+	</preconditions>
+	<steps>Follow the instructions on the screen</steps>
+	<expectedresult>Scanning finished successfully without errors and the server icon does not appear</expectedresult>
+	<actualresult>Scanning finished with error message and error icon appears</actualresult>
+	<attachments>Link</attachments>
+</bugreport>
